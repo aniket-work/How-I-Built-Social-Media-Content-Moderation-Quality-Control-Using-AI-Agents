@@ -1,0 +1,27 @@
+(How-I-Built-Social-Media-Content-Moderation-Quality-Control-Using-AI-Agents) C:\Users\worka\PycharmProjects\project>streamlit run main.py
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.2.16:8501
+
+USER_AGENT environment variable not set, consider setting it to identify your requests.
+
+Failed to load llamamodel-mainline-cuda-avxonly.dll: LoadLibraryExW failed with error 0x7e
+Failed to load llamamodel-mainline-cuda.dll: LoadLibraryExW failed with error 0x7e
+
+C:\Users\worka\PycharmProjects\project\main.py:44: LangChainDeprecationWarning: The method `BaseChatModel.__call__` was deprecated in langchain-core 0.1.7 and will be removed in 1.0. Use :meth:`~invoke` instead.
+
+  response = self.llm(messages)
+
+  question = what is climate change
+
+  Warning: Potential hallucination detected
+
+  Answer with caveat: Climate change refers to the impact of global warming on our health, ability to grow food, housing, safety, work, and other aspects of life, caused by the increasing levels of greenhouse gases in the atmosphere.
+
+  question = how species are of Sea turtles?
+
+  Warning: Potential hallucination detected
+
+ Answer with caveat: The content does not provide specific information about how species are related to sea turtles. However, it mentions that phytoplankton and algae form the bases of aquatic food webs, which are eaten by primary consumers like zooplankton, small fish, and crustaceans. This suggests a general relationship between different species in an ecosystem, but does not provide specific information about how species are related to sea turtles.
