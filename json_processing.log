@@ -1,0 +1,236 @@
+2024-11-02 09:44:13 | INFO | Processing question: what is climate change
+2024-11-02 09:44:13 | DEBUG | Retrieved 4 documents
+2024-11-02 09:44:13 | INFO | Grading retrieved document relevance
+2024-11-02 09:44:13 | INFO | Grading document for question: what is climate change...
+2024-11-02 09:44:27 | DEBUG | LLM response received: {"binary_score": "yes", "explanation": "Climate change refers to the long-term warming of the planet due to an increase in average global temperature, primarily caused by human activities such as burn...
+2024-11-02 09:44:27 | INFO | Starting LLM response processing
+2024-11-02 09:44:27 | DEBUG | Original text length: 237
+2024-11-02 09:44:27 | DEBUG | Original text: {"binary_score": "yes", "explanation": "Climate change refers to the long-term warming of the planet due to an increase in average global temperature, primarily caused by human activities such as burn...
+2024-11-02 09:44:27 | DEBUG | After removing code blocks length: 237
+2024-11-02 09:44:27 | DEBUG | Final cleaned text length: 237
+2024-11-02 09:44:27 | DEBUG | Final cleaned text: {"binary_score": "yes", "explanation": "Climate change refers to the long-term warming of the planet due to an increase in average global temperature, primarily caused by human activities such as burn...
+2024-11-02 09:44:27 | DEBUG | Found 1 potential JSON objects
+2024-11-02 09:44:27 | DEBUG | Extracted last JSON object: {"binary_score": "yes", "explanation": "Climate change refers to the long-term warming of the planet due to an increase in average global temperature, primarily caused by human activities such as burn...
+2024-11-02 09:44:27 | DEBUG | Attempting to parse JSON
+2024-11-02 09:44:27 | INFO | Successfully parsed JSON
+2024-11-02 09:44:27 | DEBUG | Parsed JSON result: {'binary_score': 'yes', 'explanation': 'Climate change refers to the long-term warming of the planet due to an increase in average global temperature, primarily caused by human activities such as burning fossil fuels and deforestation.'}
+2024-11-02 09:44:27 | INFO | Successfully processed document grading
+2024-11-02 09:44:27 | DEBUG | Document grading result: {'binary_score': 'yes', 'explanation': 'Climate change refers to the long-term warming of the planet due to an increase in average global temperature, primarily caused by human activities such as burning fossil fuels and deforestation.'}
+2024-11-02 09:44:27 | INFO | Retrieved document is relevant
+2024-11-02 09:44:27 | INFO | Generating answer from content source
+2024-11-02 09:44:33 | DEBUG | Generated answer: Climate change refers to the impact of global warming on our health, ability to grow food, housing, safety, work, and other aspects of life, caused by the increasing levels of greenhouse gases in the ...
+2024-11-02 09:44:33 | INFO | Checking for hallucinations
+2024-11-02 09:44:33 | INFO | Starting hallucination grading
+2024-11-02 09:44:33 | DEBUG | Documents length: 4934
+2024-11-02 09:44:33 | DEBUG | Answer length: 211
+2024-11-02 09:45:26 | INFO | Processing question: what is climate change
+2024-11-02 09:45:26 | DEBUG | Retrieved 4 documents
+2024-11-02 09:45:26 | INFO | Grading retrieved document relevance
+2024-11-02 09:45:26 | INFO | Grading document for question: what is climate change...
+2024-11-02 09:45:35 | DEBUG | LLM response received: {"binary_score": "yes", "explanation": "Climate change refers to the long-term warming of the planet due to an increase in average global temperature, primarily caused by human activities such as burn...
+2024-11-02 09:45:35 | INFO | Starting LLM response processing
+2024-11-02 09:45:35 | DEBUG | Original text length: 237
+2024-11-02 09:45:35 | DEBUG | Original text: {"binary_score": "yes", "explanation": "Climate change refers to the long-term warming of the planet due to an increase in average global temperature, primarily caused by human activities such as burn...
+2024-11-02 09:45:35 | DEBUG | After removing code blocks length: 237
+2024-11-02 09:45:35 | DEBUG | Final cleaned text length: 237
+2024-11-02 09:45:35 | DEBUG | Final cleaned text: {"binary_score": "yes", "explanation": "Climate change refers to the long-term warming of the planet due to an increase in average global temperature, primarily caused by human activities such as burn...
+2024-11-02 09:45:35 | DEBUG | Found 1 potential JSON objects
+2024-11-02 09:45:35 | DEBUG | Extracted last JSON object: {"binary_score": "yes", "explanation": "Climate change refers to the long-term warming of the planet due to an increase in average global temperature, primarily caused by human activities such as burn...
+2024-11-02 09:45:35 | DEBUG | Attempting to parse JSON
+2024-11-02 09:45:35 | INFO | Successfully parsed JSON
+2024-11-02 09:45:35 | DEBUG | Parsed JSON result: {'binary_score': 'yes', 'explanation': 'Climate change refers to the long-term warming of the planet due to an increase in average global temperature, primarily caused by human activities such as burning fossil fuels and deforestation.'}
+2024-11-02 09:45:35 | INFO | Successfully processed document grading
+2024-11-02 09:45:35 | DEBUG | Document grading result: {'binary_score': 'yes', 'explanation': 'Climate change refers to the long-term warming of the planet due to an increase in average global temperature, primarily caused by human activities such as burning fossil fuels and deforestation.'}
+2024-11-02 09:45:35 | INFO | Retrieved document is relevant
+2024-11-02 09:45:35 | INFO | Generating answer from content source
+2024-11-02 09:45:41 | DEBUG | Generated answer: Climate change refers to the impact of global warming on our health, ability to grow food, housing, safety, work, and other aspects of life, caused by the increasing levels of greenhouse gases in the ...
+2024-11-02 09:45:41 | INFO | Checking for hallucinations
+2024-11-02 09:45:41 | INFO | Starting hallucination grading
+2024-11-02 09:45:41 | DEBUG | Documents length: 4934
+2024-11-02 09:45:41 | DEBUG | Answer length: 211
+2024-11-02 09:45:50 | DEBUG | LLM response for hallucination check: {"binary_score": "no", "explanation": "The answer does not contain ONLY information from the facts, as it includes a summary statement that is not present in the original text."}...
+2024-11-02 09:45:50 | INFO | Starting LLM response processing
+2024-11-02 09:45:50 | DEBUG | Original text length: 178
+2024-11-02 09:45:50 | DEBUG | Original text: {"binary_score": "no", "explanation": "The answer does not contain ONLY information from the facts, as it includes a summary statement that is not present in the original text."}...
+2024-11-02 09:45:50 | DEBUG | After removing code blocks length: 178
+2024-11-02 09:45:50 | DEBUG | Final cleaned text length: 178
+2024-11-02 09:45:50 | DEBUG | Final cleaned text: {"binary_score": "no", "explanation": "The answer does not contain ONLY information from the facts, as it includes a summary statement that is not present in the original text."}...
+2024-11-02 09:45:50 | DEBUG | Found 1 potential JSON objects
+2024-11-02 09:45:50 | DEBUG | Extracted last JSON object: {"binary_score": "no", "explanation": "The answer does not contain ONLY information from the facts, as it includes a summary statement that is not present in the original text."}...
+2024-11-02 09:45:50 | DEBUG | Attempting to parse JSON
+2024-11-02 09:45:50 | INFO | Successfully parsed JSON
+2024-11-02 09:45:50 | DEBUG | Parsed JSON result: {'binary_score': 'no', 'explanation': 'The answer does not contain ONLY information from the facts, as it includes a summary statement that is not present in the original text.'}
+2024-11-02 09:45:50 | INFO | Successfully processed hallucination grading
+2024-11-02 09:45:50 | DEBUG | Hallucination check result: {'binary_score': 'no', 'explanation': 'The answer does not contain ONLY information from the facts, as it includes a summary statement that is not present in the original text.'}
+2024-11-02 09:45:50 | WARNING | Hallucination detected in generated answer
+2024-11-02 09:45:50 | INFO | 
+Processing question: how species are of Sea turtles?
+2024-11-02 09:45:50 | INFO | Processing question: how species are of Sea turtles?
+2024-11-02 09:45:50 | DEBUG | Retrieved 4 documents
+2024-11-02 09:45:50 | INFO | Grading retrieved document relevance
+2024-11-02 09:45:50 | INFO | Grading document for question: how species are of Sea turtles?...
+2024-11-02 09:45:58 | DEBUG | LLM response received: {"binary_score": "no", "explanation": "Sea turtles are not a species, but rather a group of reptiles that belong to the order Testudines."}...
+2024-11-02 09:45:58 | INFO | Starting LLM response processing
+2024-11-02 09:45:58 | DEBUG | Original text length: 139
+2024-11-02 09:45:58 | DEBUG | Original text: {"binary_score": "no", "explanation": "Sea turtles are not a species, but rather a group of reptiles that belong to the order Testudines."}...
+2024-11-02 09:45:58 | DEBUG | After removing code blocks length: 139
+2024-11-02 09:45:58 | DEBUG | Final cleaned text length: 139
+2024-11-02 09:45:58 | DEBUG | Final cleaned text: {"binary_score": "no", "explanation": "Sea turtles are not a species, but rather a group of reptiles that belong to the order Testudines."}...
+2024-11-02 09:45:58 | DEBUG | Found 1 potential JSON objects
+2024-11-02 09:45:58 | DEBUG | Extracted last JSON object: {"binary_score": "no", "explanation": "Sea turtles are not a species, but rather a group of reptiles that belong to the order Testudines."}...
+2024-11-02 09:45:58 | DEBUG | Attempting to parse JSON
+2024-11-02 09:45:58 | INFO | Successfully parsed JSON
+2024-11-02 09:45:58 | DEBUG | Parsed JSON result: {'binary_score': 'no', 'explanation': 'Sea turtles are not a species, but rather a group of reptiles that belong to the order Testudines.'}
+2024-11-02 09:45:58 | INFO | Successfully processed document grading
+2024-11-02 09:45:58 | DEBUG | Document grading result: {'binary_score': 'no', 'explanation': 'Sea turtles are not a species, but rather a group of reptiles that belong to the order Testudines.'}
+2024-11-02 09:45:58 | INFO | Document not relevant, performing web search
+2024-11-02 09:45:58 | ERROR | Web search failed: 1 validation error for TavilySearchAPIWrapper
+  Value error, Did not find tavily_api_key, please add an environment variable `TAVILY_API_KEY` which contains it, or pass `tavily_api_key` as a named parameter. [type=value_error, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.9/v/value_error
+2024-11-02 09:45:58 | INFO | Generating answer from content source
+2024-11-02 09:46:05 | DEBUG | Generated answer: The content does not provide specific information about how species are related to sea turtles. However, it mentions that phytoplankton and algae form the bases of aquatic food webs, which are eaten b...
+2024-11-02 09:46:05 | INFO | Checking for hallucinations
+2024-11-02 09:46:05 | INFO | Starting hallucination grading
+2024-11-02 09:46:05 | DEBUG | Documents length: 3941
+2024-11-02 09:46:05 | DEBUG | Answer length: 434
+2024-11-02 09:46:13 | DEBUG | LLM response for hallucination check: {"binary_score": "no", "explanation": "The answer requires specific information about how species are related to sea turtles, which is not provided in the given facts."}...
+2024-11-02 09:46:13 | INFO | Starting LLM response processing
+2024-11-02 09:46:13 | DEBUG | Original text length: 169
+2024-11-02 09:46:13 | DEBUG | Original text: {"binary_score": "no", "explanation": "The answer requires specific information about how species are related to sea turtles, which is not provided in the given facts."}...
+2024-11-02 09:46:13 | DEBUG | After removing code blocks length: 169
+2024-11-02 09:46:13 | DEBUG | Final cleaned text length: 169
+2024-11-02 09:46:13 | DEBUG | Final cleaned text: {"binary_score": "no", "explanation": "The answer requires specific information about how species are related to sea turtles, which is not provided in the given facts."}...
+2024-11-02 09:46:13 | DEBUG | Found 1 potential JSON objects
+2024-11-02 09:46:13 | DEBUG | Extracted last JSON object: {"binary_score": "no", "explanation": "The answer requires specific information about how species are related to sea turtles, which is not provided in the given facts."}...
+2024-11-02 09:46:13 | DEBUG | Attempting to parse JSON
+2024-11-02 09:46:13 | INFO | Successfully parsed JSON
+2024-11-02 09:46:13 | DEBUG | Parsed JSON result: {'binary_score': 'no', 'explanation': 'The answer requires specific information about how species are related to sea turtles, which is not provided in the given facts.'}
+2024-11-02 09:46:13 | INFO | Successfully processed hallucination grading
+2024-11-02 09:46:13 | DEBUG | Hallucination check result: {'binary_score': 'no', 'explanation': 'The answer requires specific information about how species are related to sea turtles, which is not provided in the given facts.'}
+2024-11-02 09:46:13 | WARNING | Hallucination detected in generated answer
+2024-11-02 10:19:38 | INFO | Processing question: What are the types of agent memory?
+2024-11-02 10:19:38 | DEBUG | Retrieved 4 documents
+2024-11-02 10:19:38 | INFO | Grading retrieved document relevance
+2024-11-02 10:19:38 | INFO | Grading document for question: What are the types of agent memory?...
+2024-11-02 10:20:33 | DEBUG | LLM response received: {"binary_score": "no", "explanation": "The document does not mention agent memory."}...
+2024-11-02 10:20:33 | INFO | Starting LLM response processing
+2024-11-02 10:20:33 | DEBUG | Original text length: 84
+2024-11-02 10:20:33 | DEBUG | Original text: {"binary_score": "no", "explanation": "The document does not mention agent memory."}...
+2024-11-02 10:20:33 | DEBUG | After removing code blocks length: 84
+2024-11-02 10:20:33 | DEBUG | Final cleaned text length: 84
+2024-11-02 10:20:33 | DEBUG | Final cleaned text: {"binary_score": "no", "explanation": "The document does not mention agent memory."}...
+2024-11-02 10:20:33 | DEBUG | Found 1 potential JSON objects
+2024-11-02 10:20:33 | DEBUG | Extracted last JSON object: {"binary_score": "no", "explanation": "The document does not mention agent memory."}...
+2024-11-02 10:20:33 | DEBUG | Attempting to parse JSON
+2024-11-02 10:20:33 | INFO | Successfully parsed JSON
+2024-11-02 10:20:33 | DEBUG | Parsed JSON result: {'binary_score': 'no', 'explanation': 'The document does not mention agent memory.'}
+2024-11-02 10:20:33 | INFO | Successfully processed document grading
+2024-11-02 10:20:33 | DEBUG | Document grading result: {'binary_score': 'no', 'explanation': 'The document does not mention agent memory.'}
+2024-11-02 10:20:33 | INFO | Document not relevant, performing web search
+2024-11-02 10:20:33 | ERROR | Web search failed: string indices must be integers, not 'str'
+2024-11-02 10:20:33 | INFO | Generating answer from content source
+2024-11-02 10:21:34 | DEBUG | Generated answer: There is no mention of "agent memory" in the provided content. The content appears to be about estuaries, marine life, and education, but it does not discuss the concept of "agent memory"....
+2024-11-02 10:21:34 | INFO | Checking for hallucinations
+2024-11-02 10:21:34 | INFO | Starting hallucination grading
+2024-11-02 10:21:34 | DEBUG | Documents length: 2784
+2024-11-02 10:21:34 | DEBUG | Answer length: 188
+2024-11-02 10:22:31 | DEBUG | LLM response for hallucination check: {"binary_score": "no", "explanation": "The content does not mention 'agent memory' and is focused on estuaries, marine life, and education."}...
+2024-11-02 10:22:31 | INFO | Starting LLM response processing
+2024-11-02 10:22:31 | DEBUG | Original text length: 141
+2024-11-02 10:22:31 | DEBUG | Original text: {"binary_score": "no", "explanation": "The content does not mention 'agent memory' and is focused on estuaries, marine life, and education."}...
+2024-11-02 10:22:31 | DEBUG | After removing code blocks length: 141
+2024-11-02 10:22:31 | DEBUG | Final cleaned text length: 141
+2024-11-02 10:22:31 | DEBUG | Final cleaned text: {"binary_score": "no", "explanation": "The content does not mention 'agent memory' and is focused on estuaries, marine life, and education."}...
+2024-11-02 10:22:31 | DEBUG | Found 1 potential JSON objects
+2024-11-02 10:22:31 | DEBUG | Extracted last JSON object: {"binary_score": "no", "explanation": "The content does not mention 'agent memory' and is focused on estuaries, marine life, and education."}...
+2024-11-02 10:22:31 | DEBUG | Attempting to parse JSON
+2024-11-02 10:22:31 | INFO | Successfully parsed JSON
+2024-11-02 10:22:31 | DEBUG | Parsed JSON result: {'binary_score': 'no', 'explanation': "The content does not mention 'agent memory' and is focused on estuaries, marine life, and education."}
+2024-11-02 10:22:31 | INFO | Successfully processed hallucination grading
+2024-11-02 10:22:31 | DEBUG | Hallucination check result: {'binary_score': 'no', 'explanation': "The content does not mention 'agent memory' and is focused on estuaries, marine life, and education."}
+2024-11-02 10:22:31 | WARNING | Hallucination detected in generated answer
+2024-11-02 10:28:09 | INFO | Processing question: what is climate change
+2024-11-02 10:28:09 | DEBUG | Retrieved 4 documents
+2024-11-02 10:28:09 | INFO | Grading retrieved document relevance
+2024-11-02 10:28:09 | INFO | Grading document for question: what is climate change...
+2024-11-02 10:28:24 | DEBUG | LLM response received: {"binary_score": "yes", "explanation": "Climate change refers to the long-term warming of the planet due to an increase in average global temperature, primarily caused by human activities such as burn...
+2024-11-02 10:28:24 | INFO | Starting LLM response processing
+2024-11-02 10:28:24 | DEBUG | Original text length: 237
+2024-11-02 10:28:24 | DEBUG | Original text: {"binary_score": "yes", "explanation": "Climate change refers to the long-term warming of the planet due to an increase in average global temperature, primarily caused by human activities such as burn...
+2024-11-02 10:28:24 | DEBUG | After removing code blocks length: 237
+2024-11-02 10:28:24 | DEBUG | Final cleaned text length: 237
+2024-11-02 10:28:24 | DEBUG | Final cleaned text: {"binary_score": "yes", "explanation": "Climate change refers to the long-term warming of the planet due to an increase in average global temperature, primarily caused by human activities such as burn...
+2024-11-02 10:28:24 | DEBUG | Found 1 potential JSON objects
+2024-11-02 10:28:24 | DEBUG | Extracted last JSON object: {"binary_score": "yes", "explanation": "Climate change refers to the long-term warming of the planet due to an increase in average global temperature, primarily caused by human activities such as burn...
+2024-11-02 10:28:24 | DEBUG | Attempting to parse JSON
+2024-11-02 10:28:24 | INFO | Successfully parsed JSON
+2024-11-02 10:28:24 | DEBUG | Parsed JSON result: {'binary_score': 'yes', 'explanation': 'Climate change refers to the long-term warming of the planet due to an increase in average global temperature, primarily caused by human activities such as burning fossil fuels and deforestation.'}
+2024-11-02 10:28:24 | INFO | Successfully processed document grading
+2024-11-02 10:28:24 | DEBUG | Document grading result: {'binary_score': 'yes', 'explanation': 'Climate change refers to the long-term warming of the planet due to an increase in average global temperature, primarily caused by human activities such as burning fossil fuels and deforestation.'}
+2024-11-02 10:28:24 | INFO | Retrieved document is relevant
+2024-11-02 10:28:24 | INFO | Generating answer from content source
+2024-11-02 10:28:30 | DEBUG | Generated answer: Climate change refers to the impact of global warming on our health, ability to grow food, housing, safety, work, and other aspects of life, caused by the increasing levels of greenhouse gases in the ...
+2024-11-02 10:28:30 | INFO | Checking for hallucinations
+2024-11-02 10:28:30 | INFO | Starting hallucination grading
+2024-11-02 10:28:30 | DEBUG | Documents length: 4934
+2024-11-02 10:28:30 | DEBUG | Answer length: 211
+2024-11-02 10:28:39 | DEBUG | LLM response for hallucination check: {"binary_score": "no", "explanation": "The answer does not contain ONLY information from the facts, as it includes a summary statement that is not present in the original text."}...
+2024-11-02 10:28:39 | INFO | Starting LLM response processing
+2024-11-02 10:28:39 | DEBUG | Original text length: 178
+2024-11-02 10:28:39 | DEBUG | Original text: {"binary_score": "no", "explanation": "The answer does not contain ONLY information from the facts, as it includes a summary statement that is not present in the original text."}...
+2024-11-02 10:28:39 | DEBUG | After removing code blocks length: 178
+2024-11-02 10:28:39 | DEBUG | Final cleaned text length: 178
+2024-11-02 10:28:39 | DEBUG | Final cleaned text: {"binary_score": "no", "explanation": "The answer does not contain ONLY information from the facts, as it includes a summary statement that is not present in the original text."}...
+2024-11-02 10:28:39 | DEBUG | Found 1 potential JSON objects
+2024-11-02 10:28:39 | DEBUG | Extracted last JSON object: {"binary_score": "no", "explanation": "The answer does not contain ONLY information from the facts, as it includes a summary statement that is not present in the original text."}...
+2024-11-02 10:28:39 | DEBUG | Attempting to parse JSON
+2024-11-02 10:28:39 | INFO | Successfully parsed JSON
+2024-11-02 10:28:39 | DEBUG | Parsed JSON result: {'binary_score': 'no', 'explanation': 'The answer does not contain ONLY information from the facts, as it includes a summary statement that is not present in the original text.'}
+2024-11-02 10:28:39 | INFO | Successfully processed hallucination grading
+2024-11-02 10:28:39 | DEBUG | Hallucination check result: {'binary_score': 'no', 'explanation': 'The answer does not contain ONLY information from the facts, as it includes a summary statement that is not present in the original text.'}
+2024-11-02 10:28:39 | WARNING | Hallucination detected in generated answer
+2024-11-02 10:28:39 | INFO | 
+Processing question: how species are of Sea turtles?
+2024-11-02 10:28:39 | INFO | Processing question: how species are of Sea turtles?
+2024-11-02 10:28:39 | DEBUG | Retrieved 4 documents
+2024-11-02 10:28:39 | INFO | Grading retrieved document relevance
+2024-11-02 10:28:39 | INFO | Grading document for question: how species are of Sea turtles?...
+2024-11-02 10:28:46 | DEBUG | LLM response received: {"binary_score": "no", "explanation": "Sea turtles are not a species, but rather a group of reptiles that belong to the order Testudines."}...
+2024-11-02 10:28:46 | INFO | Starting LLM response processing
+2024-11-02 10:28:46 | DEBUG | Original text length: 139
+2024-11-02 10:28:46 | DEBUG | Original text: {"binary_score": "no", "explanation": "Sea turtles are not a species, but rather a group of reptiles that belong to the order Testudines."}...
+2024-11-02 10:28:46 | DEBUG | After removing code blocks length: 139
+2024-11-02 10:28:46 | DEBUG | Final cleaned text length: 139
+2024-11-02 10:28:46 | DEBUG | Final cleaned text: {"binary_score": "no", "explanation": "Sea turtles are not a species, but rather a group of reptiles that belong to the order Testudines."}...
+2024-11-02 10:28:46 | DEBUG | Found 1 potential JSON objects
+2024-11-02 10:28:46 | DEBUG | Extracted last JSON object: {"binary_score": "no", "explanation": "Sea turtles are not a species, but rather a group of reptiles that belong to the order Testudines."}...
+2024-11-02 10:28:46 | DEBUG | Attempting to parse JSON
+2024-11-02 10:28:46 | INFO | Successfully parsed JSON
+2024-11-02 10:28:46 | DEBUG | Parsed JSON result: {'binary_score': 'no', 'explanation': 'Sea turtles are not a species, but rather a group of reptiles that belong to the order Testudines.'}
+2024-11-02 10:28:46 | INFO | Successfully processed document grading
+2024-11-02 10:28:46 | DEBUG | Document grading result: {'binary_score': 'no', 'explanation': 'Sea turtles are not a species, but rather a group of reptiles that belong to the order Testudines.'}
+2024-11-02 10:28:46 | INFO | Document not relevant, performing web search
+2024-11-02 10:28:46 | ERROR | Web search failed: 1 validation error for TavilySearchAPIWrapper
+  Value error, Did not find tavily_api_key, please add an environment variable `TAVILY_API_KEY` which contains it, or pass `tavily_api_key` as a named parameter. [type=value_error, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.9/v/value_error
+2024-11-02 10:28:46 | INFO | Generating answer from content source
+2024-11-02 10:28:54 | DEBUG | Generated answer: The content does not provide specific information about how species are related to sea turtles. However, it mentions that phytoplankton and algae form the bases of aquatic food webs, which are eaten b...
+2024-11-02 10:28:54 | INFO | Checking for hallucinations
+2024-11-02 10:28:54 | INFO | Starting hallucination grading
+2024-11-02 10:28:54 | DEBUG | Documents length: 3941
+2024-11-02 10:28:54 | DEBUG | Answer length: 434
+2024-11-02 10:29:02 | DEBUG | LLM response for hallucination check: {"binary_score": "no", "explanation": "The answer requires specific information about how species are related to sea turtles, which is not provided in the given facts."}...
+2024-11-02 10:29:02 | INFO | Starting LLM response processing
+2024-11-02 10:29:02 | DEBUG | Original text length: 169
+2024-11-02 10:29:02 | DEBUG | Original text: {"binary_score": "no", "explanation": "The answer requires specific information about how species are related to sea turtles, which is not provided in the given facts."}...
+2024-11-02 10:29:02 | DEBUG | After removing code blocks length: 169
+2024-11-02 10:29:02 | DEBUG | Final cleaned text length: 169
+2024-11-02 10:29:02 | DEBUG | Final cleaned text: {"binary_score": "no", "explanation": "The answer requires specific information about how species are related to sea turtles, which is not provided in the given facts."}...
+2024-11-02 10:29:02 | DEBUG | Found 1 potential JSON objects
+2024-11-02 10:29:02 | DEBUG | Extracted last JSON object: {"binary_score": "no", "explanation": "The answer requires specific information about how species are related to sea turtles, which is not provided in the given facts."}...
+2024-11-02 10:29:02 | DEBUG | Attempting to parse JSON
+2024-11-02 10:29:02 | INFO | Successfully parsed JSON
+2024-11-02 10:29:02 | DEBUG | Parsed JSON result: {'binary_score': 'no', 'explanation': 'The answer requires specific information about how species are related to sea turtles, which is not provided in the given facts.'}
+2024-11-02 10:29:02 | INFO | Successfully processed hallucination grading
+2024-11-02 10:29:02 | DEBUG | Hallucination check result: {'binary_score': 'no', 'explanation': 'The answer requires specific information about how species are related to sea turtles, which is not provided in the given facts.'}
+2024-11-02 10:29:02 | WARNING | Hallucination detected in generated answer
