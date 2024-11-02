@@ -1,0 +1,15 @@
+streamlit
+langchain
+langgraph
+langchain_core
+langchain_community
+langchain-nomic
+loguru
+langchain-ollama
+gpt4all
+fastapi
+uvicorn
+python-dotenv
+scikit-learn
+bs4
+tiktoken

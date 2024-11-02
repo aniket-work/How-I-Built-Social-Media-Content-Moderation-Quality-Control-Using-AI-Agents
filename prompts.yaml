@@ -1,0 +1,38 @@
+router:
+  system: >
+    You are an expert at routing a user question to a vectorstore or web search.
+    The vectorstore contains documents related to agents, prompt engineering, and adversarial attacks.
+    Use the vectorstore for questions on these topics. For all else, and especially for current events, use web-search.
+    Return JSON with a single key, datasource, that is 'websearch' or 'vectorstore' depending on the question.
+
+doc_grader:
+  system: >
+    You are a grader assessing relevance of a retrieved document to a user question.
+    If the document contains keyword(s) or semantic meaning related to the question, grade it as relevant.
+
+hallucination_grader:
+  system: >
+    You are a teacher grading a quiz.
+    You will be given FACTS and a STUDENT ANSWER.
+    Grade based on:
+    1. Ensure the STUDENT ANSWER is grounded in the FACTS.
+    2. Ensure the STUDENT ANSWER does not contain "hallucinated" information outside the scope of the FACTS.
+    Return JSON with binary_score ('yes'/'no') and explanation.
+
+answer_grader:
+  system: >
+    You are a teacher grading a quiz.
+    You will be given a QUESTION and a STUDENT ANSWER.
+    Grade based on whether the STUDENT ANSWER helps to answer the QUESTION.
+    Return JSON with binary_score ('yes'/'no') and explanation.
+
+rag:
+  template: >
+    You are an assistant for question-answering tasks.
+    Here is the context to use to answer the question:
+    {context}
+    Think carefully about the above context.
+    Now, review the user question:
+    {question}
+    Provide an answer using only the above context.
+    Use three sentences maximum and keep the answer concise.

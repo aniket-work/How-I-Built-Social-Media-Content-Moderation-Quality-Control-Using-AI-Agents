@@ -1,0 +1,19 @@
+model:
+  name: "llama3.2:3b-instruct-fp16"
+  temperature: 0
+  format: "json"
+
+vectorstore:
+  chunk_size: 1000
+  chunk_overlap: 200
+
+retriever:
+  k: 3
+
+data_sources:
+  urls:
+    - "https://www.un.org/en/climatechange/what-is-climate-change"
+    - "https://www.noaa.gov/education/resource-collections/marine-life"
+
+api_keys:
+  tavily: "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"
