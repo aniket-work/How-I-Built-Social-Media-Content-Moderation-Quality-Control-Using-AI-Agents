@@ -1,32 +1,43 @@
 # How I Built Social Media Content Moderation Quality Control Using AI Agents
 
-Hands-on : Building a Smart System for Rapid Marketing Strategy Generation and Selection, every detail spelled out
+Building a Smart Multi-Agent System that Thinks like a Team of Expert Moderators
 
 TL;DR
 
-I built an AI-powered Marketing Campaign Analyzer that generates and evaluates marketing strategies. It uses multiple AI agents to create campaigns and a judge agent to pick the best one. The system has a user-friendly interface for inputting product details and viewing results. This project demonstrates how AI can be practically applied in marketing to save time and potentially improve campaign effectiveness.
+Built an AI-powered content moderation system that uses multiple specialized AI agents to check, validate, and improve content quality. The system uses document retrieval, web search, and three different grading agents to ensure content accuracy and relevance. While built for content moderation, this approach demonstrates how AI agents can work together to solve complex business problems reliably.
 
 ## Introduction
 
-Picture this: You’re a marketing manager swamped with campaign ideas, each promising to be the next big thing. How do you choose? What if AI could not only generate these ideas but also pick the best one? That’s exactly what I set out to build — a Marketing Campaign Analyzer powered by AI agents. Let me take you on this exciting journey of blending technology with creativity.
+Picture this: You’re scrolling through social media, and every post you see is relevant, accurate, and high-quality. No spam, no fake news, no misleading content. Sounds impossible? That’s exactly the challenge I tackled by building an AI-powered content moderation system. Through my journey of creating this system, I discovered that the real power lies not in using a single AI, but in making multiple AI agents work together, each handling a specific part of the quality control process.
 
-Full Article : [https://medium.com/@learn-simplified/How-I-Built-Social-Media-Content-Moderation-Quality-Control-Using-AI-Agents-75f66dc49a0c
+Full Article : [https://medium.com/@learn-simplified/how-i-built-social-media-content-moderation-quality-control-using-ai-agents-b1c3c4c3b9df
 
 
 ## What's This Project About
 
-This article is a deep dive into my process of creating an AI-driven marketing campaign analyzer. I’ll walk you through how I used multiple AI agents to generate and evaluate marketing strategies. You’ll see how I combined a user-friendly interface with complex AI processing, allowing users to input product details and receive AI-generated marketing strategies along with an AI judge’s decision on the best approach. It’s a practical look at how AI can be leveraged to streamline and enhance marketing decision-making processes.
+This article takes you through my process of building a multi-agent AI system for content moderation. The system works like a team of specialized workers — one agent checks if content matches our knowledge base, another verifies factual accuracy, and a third ensures the content actually answers user questions. These agents work together using a mix of local document search and web searches to find information.
+
+The system follows a clear workflow:
+
+When content arrives, it first goes through document retrieval to find relevant information
+A grading agent checks if the retrieved information is actually relevant
+If local information isn’t sufficient, the system automatically searches the web
+Another agent verifies that no false information (hallucinations) is being added
+A final agent ensures the content actually addresses what was asked
+While this might sound complex, I’ve broken down each part into manageable pieces and explained how they work together. You’ll see actual code examples, understand why each component is necessary, and learn how to build similar systems for your own needs.
 
 ## Why Work on It?
 
-In today’s fast-paced business world, AI isn’t just a buzzword — it’s becoming a necessity. This article showcases how even a fictional company can implement AI to revolutionize its marketing approach. By reading this, you’ll gain insights into:
+In today’s business landscape, content moderation isn’t just about filtering out bad content — it’s about ensuring quality at scale. Whether you’re running a social media platform, managing a content website, or handling customer support, the challenge of maintaining content quality while keeping up with volume is universal.
 
- - How AI can generate creative marketing strategies
- - The process of evaluating marketing ideas using AI
- - Practical implementation of AI in a business context
- - Building a user-friendly interface for complex AI systems
+Through this article, I show how even a fictional company can implement sophisticated AI solutions to:
 
-Whether you’re a marketing professional looking to stay ahead of the curve, a tech enthusiast curious about AI applications, or a business owner considering AI integration, this article offers valuable insights into the future of marketing and AI’s role in it.
+Automate quality control while maintaining high standards
+Scale content moderation without sacrificing accuracy
+Reduce the workload on human moderators
+Ensure consistent application of content guidelines
+Handle complex moderation decisions with multiple validation steps
+The system I’ve built demonstrates practical ways to use current AI technology to solve real business problems. While the example is about content moderation, the same multi-agent approach can be adapted for other business processes that require multiple validation steps.
 
 ## Architecture
 ![Design Diagram](design_docs/design.png)
@@ -61,7 +72,7 @@ Whether you’re a marketing professional looking to stay ahead of the curve, a 
 
 **Install Project Dependencies:**
 
-Follow these steps to set up and run the  Marketing Campaign Analyzer Using AI Agents
+Follow these steps to set up and run the  Built Social Media Content Moderation Quality Control Using AI Agents
 
 1. Navigate to your project directory:
    ```
@@ -77,7 +88,7 @@ Follow these steps to set up and run the  Marketing Campaign Analyzer Using AI A
    This command installs all the necessary Python packages listed in the requirements.txt file.
 
 
-## Run - Hands-On Guide: Built Marketing Campaign Analyzer Using AI Agents
+## Run - Hands-On Guide: Built Social Media Content Moderation Quality Control Using AI Agents
 
    ```bash 
      
@@ -88,4 +99,4 @@ Follow these steps to set up and run the  Marketing Campaign Analyzer Using AI A
 
 ## Conclusion and Next Steps
 
-Congratulations! You've just built Marketing Campaign Analyzer Using AI Agents
+Congratulations! You've just Built Social Media Content Moderation Quality Control Using AI Agents
