@@ -16,4 +16,4 @@ data_sources:
     - "https://www.noaa.gov/education/resource-collections/marine-life"
 
 api_keys:
-  tavily: "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"
+  tavily: "tvly-xxxxxxxxxxxxxx"
